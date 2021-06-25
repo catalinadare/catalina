@@ -1,0 +1,149 @@
+body
+{
+	background-color: #B2BDC6;
+	font-family: Arial, "Times New Roman", "Trebuchet MS";
+
+}
+
+#disclaimer
+{
+	display: flex;
+	font-size: 0.8em;
+	justify-content: center; /*aligne sur le 2nd axe au centre*/
+	align-items: flex-end; /*aligne sur le 2nd axe à la fin*/
+	text-align: center; /*aligne le texte au centre*/
+	margin-top: 50px;
+
+}
+
+#autres_pages
+{
+	font-size: 0.8em;
+	margin: auto;
+	padding: 6px;
+	border: 4px solid #4169E1;
+	height: auto;
+	margin-top: 16px;
+
+}
+
+.conteneur4
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#conteneur1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+#conteneur2
+{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+.element4
+{
+	width: 21%;
+	height: auto;
+	border: 4px outset #4169E1;
+	background-color: #FFD700;
+	border-radius: 20%;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 6px;
+	font-size: 1.1em;
+
+}
+
+.element1
+{
+	width: 28%;
+	height: auto;
+	border: 4px outset #4169E1;
+	background-color: #FFD700;
+	border-radius: 20%;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 6px;
+	font-size: 1.3em;
+
+}
+
+.element
+{
+	width: 40%;
+	height: auto;
+	border: 4px outset #4169E1;
+	background-color: #FFD700;
+	border-radius: 20%;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 6px;
+	font-size: 1.3em;
+
+}
+
+#bas_de_page
+{
+	display: flex;
+	align-items: flex-end;
+}
+
+.logo_catalina_dare
+{
+	display: flex;
+	width: 12%;
+	height: auto;
+	border-radius: 50%;
+	margin: auto;
+}
+
+.text_logo
+{
+	text-align: center;
+		font-weight: bold;
+
+}
+
+a:link /*enlève les soulignements des liens mais pas des autres balises a*/
+{
+  text-decoration: none;
+}
+
+a
+{
+  color: #000000;
+}
+
+.title_footer
+{
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.lien_prime
+{
+	display: flex;
+	justify-content: center; /*aligne sur le 2nd axe au centre*/
+	color: black;
+	margin-bottom: 20px;
+}
+
+.page1
+{
+	font-size: 1.3em;
+}
+
+/*$nahino*/
